@@ -1,4 +1,4 @@
-# Analiza registriranih vozil med 2012 in 2017
+# Analiza registriranih vozil med 2012 in 2016
 
 ## Alen Oberstar, Simon Zajc
 
@@ -6,7 +6,7 @@
 
 
 ### Uvod
-Cilj naloge je bilo raziskovati in odgovoriti na zastavljene hipoteze. Uporabila sva analizo podatkov
+Cilj naloge je bilo raziskovati in odgovoriti na zastavljene hipoteze. 
 
 
 ### Podatki
@@ -26,8 +26,17 @@ Podatki so bili v zelo slabi obliki, saj so se posamezni vnosi po mesecih razlik
 
 ### Metode
 
-Za programiranje sva uporabljala Pyhton in zbirko knjižnic Anaconda. Najprej sva morala sortirati vnose v vsakem mesecu in z analize izključiti vse vnose, ki niso imeli popolnih podatkov, saj sva za analizo potrebovala vnose, ki imajo isto število podatkov.
+Na vprašanja sva odgovarjala s pomočjo grafov, ki sva jih pridobila iz podatkov. Podatke sva uvozila v Pyhton program, ki sva ga izdelala v Pyhton 3.x s pomočjo zbirke knjižnic Anaconda. Specifično sva uporabila MatPlotLib za risanje grafov in Glob za iskanje vseh datotek v poddirektorijih nekega direktorija, ki ustrezajo določenemu vzorcu. CSV datoteke sva razdelila po letih. 
 
+
+```directory = getcwd() + "\podatki\\" + str(leto) + "\*.csv"'
+  for fl in glob(directory): 
+      with open(fl, encoding="latin-1") as f:
+      for i, l in enumerate(f)
+         pass
+      stReg.append(i) 
+
+```
 
 
 
