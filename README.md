@@ -37,6 +37,8 @@ Na vprašanja sva odgovarjala s pomočjo grafov, ki sva jih pridobila iz podatko
       stReg.append(i) 
 
 ```
+Podatki so v 60 CSV datotekah, katere se med seboj razlikujejo, zato sva morala podatke urediti in pripraviti na obdelavo. Problem je nastal, ker niti vrstice v posamezni datoteki niso bile zapisane v istem formatu. Imele so različno število stolpcev, pa tudi, če je bilo število stolpcev enako, so bili lahko vključeni različni stolpci(Bravo slovenski statistični urad). Zaradi tega sva morala razviti svojo programsko rešitev. Program najprej ugotovi kakšno je najpogostejše število stolpcev v vrstici. Nato ročno vneseva mesto na katerem je željen podatek ter tip levega in desnega podatka, ki sta v sosednjih stolpcih željenega podatka. Program preveri če je željeni podatek pravega tipa, ter če sta levi in desni stolpec pravega tipa ali prazna. Če vrstica ustreza vsem zadanim pogojem, shranimo njen indeks in jo nato uporabimo za obdelavo. Kljub temu, da obstaja možnost napake, misliva, da zaradi količine podatkov bistveno ne vpliva na končne rezultate. Zaradi potrebe po manualnemu vnosu je z obdelavo podatkov zelo veliko dela. Če bi bili dani podatki lepo urejeni, bi bilo neizmerno lažje in hitreje iskati znanje v podatkih. 
+
 ### Rezultati
 #### Hipoteza 2: V zadnjih petih letih se je povečalo število prvih registracij v Sloveniji.
 Kot je razvidno iz grafa 6(glej priponke) sva to hipotezo potrdila. To hipotezo sva postavila, ker je bila Slovenija leta 2012(Prvo analizirano leto) sredi ekonomske krize. Iz grafa je lepo razvidno, da se je leta 2014, ko se je stanje začelo izboljševati, prodaja avtomobilov močno povečala. Iz leta 2014 na leto 2016 je narastla za približno 30%.
