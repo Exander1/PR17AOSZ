@@ -37,10 +37,14 @@ Na vprašanja sva odgovarjala s pomočjo grafov, ki sva jih pridobila iz podatko
       stReg.append(i) 
 
 ```
-
-
-
 ### Rezultati
+#### Hipoteza 2: V zadnjih petih letih se je povečalo število prvih registracij v Sloveniji.
+Kot je razvidno iz grafa 6(glej priponke) sva to hipotezo potrdila. To hipotezo sva postavila, ker je bila Slovenija leta 2012(Prvo analizirano leto) sredi ekonomske krize. Iz grafa je lepo razvidno, da se je leta 2014, ko se je stanje začelo izboljševati, prodaja avtomobilov močno povečala. Iz leta 2014 na leto 2016 je narastla za približno 30%.
+
+#### Hipoteza 6: Obstajajo obdobja v letu, v katerih je več kupljenih vozil in posledično več prvih registracij vozil. 
+Pričakovala sva, da bosta december in januar zaradi trinajste plače najbolj popularna meseca za kupovanje novih vozil. Kljub temu, da so nekateri meseci izrazito popularnejši za kupovanje vozil, se trend iz leta v leto spreminja. Zaradi relativno kratkega obdobja podatkov(5 let), iz izbranih podatkov ne moreva ugotoviti razloga za popularnejša obdobja. Zanimivo bi bilo videti(ob dosegljivosti podatkov), če imajo na to vpliv kakšne reklamne kampanje. 
+
+### Priponke
 Grafi registracij po mesecih v letih od 2012 do 2016.
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780926/4e24dc90-3331-11e7-9c1f-df6fdb7c08b9.jpeg)
 
@@ -65,7 +69,8 @@ Graf 5: Registracije po mesecih v letu 2016.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780931/4e36ad6c-3331-11e7-8a0c-829d08f55f56.jpeg)
 
-Graf 6: Število vseh registracij med 2012 in 2016.  
+#### Graf 6
+Število vseh registracij med 2012 in 2016. 
 
 
   
