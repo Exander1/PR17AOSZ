@@ -29,11 +29,11 @@ Podatki so bili v zelo slabi obliki, saj so se posamezni vnosi po mesecih razlik
 Na vprašanja sva odgovarjala s pomočjo grafov, ki sva jih pridobila iz podatkov. Podatke sva uvozila v Pyhton program, ki sva ga izdelala v Pyhton 3.x s pomočjo zbirke knjižnic Anaconda. Specifično sva uporabila MatPlotLib za risanje grafov in Glob za iskanje vseh datotek v poddirektorijih nekega direktorija, ki ustrezajo določenemu vzorcu. CSV datoteke sva razdelila po letih. 
 
 
-```directory = getcwd() + "\podatki\\" + str(leto) + "\*.csv"'
+```directory = getcwd() + "\podatki\\" + str(leto) + "\*.csv"
   for fl in glob(directory): 
       with open(fl, encoding="latin-1") as f:
-      for i, l in enumerate(f)
-         pass
+         for i, l in enumerate(f)
+             pass
       stReg.append(i) 
 
 ```
@@ -44,22 +44,28 @@ Na vprašanja sva odgovarjala s pomočjo grafov, ki sva jih pridobila iz podatko
 Grafi registracij po mesecih v letih od 2012 do 2016.
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780926/4e24dc90-3331-11e7-9c1f-df6fdb7c08b9.jpeg)
 
+Graf 1: Registracije po mesecih v letu 2012.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780930/4e335eaa-3331-11e7-8b16-fc10f5269604.jpeg)
 
+Graf 2: Registracije po mesecih v letu 2013.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780927/4e28c0b2-3331-11e7-89ba-ec226531b130.jpeg)
 
+Graf 3: Registracije po mesecih v letu 2014.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780928/4e2bdff4-3331-11e7-8c03-206dea191d8c.jpeg)
 
+Graf 4: Registracije po mesecih v letu 2015.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780929/4e2f9a90-3331-11e7-96b8-6b78d23571a9.jpeg)
 
-Graf vseh registracij od 2012 do 2016. Kot je razvidno na grafu, se stevilo registracij povečuje. 
+Graf 5: Registracije po mesecih v letu 2016.
+
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780931/4e36ad6c-3331-11e7-8a0c-829d08f55f56.jpeg)
 
+Graf 6: Število vseh registracij med 2012 in 2016.  
 
 
   
