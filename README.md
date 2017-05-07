@@ -6,22 +6,33 @@
 
 
 ### Uvod
+Cilj naloge je bilo raziskovati in odgovoriti na zastavljene hipoteze. Uporabila sva analizo podatkov
 
-  Zanimalo naju bo, če se je v zadnjih 5 letih spremenila povprečna starost voznika avtomobila. Če se je spremenil delež moških in ženskih voznikov. Kako so se skozi čas spreminjale nazivne moči motorjev. Korelacija med spolom in tipom/močjo kupljenega avtomobila. (hipoteza: razlike med moškimi in ženskami se zmanjšujejo).
 
 ### Podatki
 
   Namensko sva iskala problem, z veliko količino podatkov, ker sva želela preiskovati spremembe trendov skozi čas. Poleg zgoraj navedenih glavnih vprašanj, misliva, da bova lahko že razvite iskalne algoritme uporabila še na drugih potencialnih vprašanjih, ki se bodo pojavila tekom raziskovanja. Upava, da bi lahko s preiskovanjem tekočih trendov napovedala trende v avtomobilski industriji za prihajajoča leta. Zanimala bi naju tudi korelacija med nesrečami in različnimi vozniki/močmi/starostjo, a zaenkrat še nisva našla podatkov o nesrečah v Sloveniji s potrebnimi podatki.
-  Podatki so bili v zelo slabi obliki, saj so se posamezni vnosi po mesecih razlikovali in sva najprej morala prečistiti podatke, kjer sva upoštevala samo vrstice, ki so zadostovale pogojem. Stolpci se razlikujejo celo med posameznimi meseci, kar pomeni, da imava v enem mesecu 30 stolpcev in v naslednjem 38 ker toliko podatkov sploh ni vnešenih za tisti mesec.
   
+Podatki so bili v zelo slabi obliki, saj so se posamezni vnosi po mesecih razlikovali in sva najprej morala prečistiti podatke, kjer sva upoštevala samo vrstice, ki so zadostovale pogojem. Stolpci se razlikujejo celo med posameznimi vnosi v istem mesecu, kar pomeni, da ima  en vnos 30 podatkov in naslednji 38, ker toliko podatkov sploh ni vnešenih za tisti mesec, namesto, da bi za določen podatek bil vnos 0, tega podatka sploh ni.
+
+### Hipoteze
+
+#### Hipoteza 1: Ker se povprečna starost državljanov Republike Slovenije viša, se tudi povprečna starost voznika povečuje.
+#### Hipoteza 2: V zadnjih petih letih se je povečalo število prvih registracij v Sloveniji.
+#### Hipoteza 3: Razmerje moški/ženska med lastniki vozil se izenačuje.
+#### Hipoteza 4: Nazivne moči motorjev se s časom zmanšujejo. 
+#### Hipoteza 5: Moški imajo v povprečju močnejše avtomobile. 
+#### Hipoteza 6: Obstajajo obdobja v letu, v katerih je več kupljenih vozil in posledično več prvih registracij vozil. 
 
 ### Metode
 
+Za programiranje sva uporabljala Pyhton in zbirko knjižnic Anaconda. Najprej sva morala sortirati vnose v vsakem mesecu in z analize izključiti vse vnose, ki niso imeli popolnih podatkov, saj sva za analizo potrebovala vnose, ki imajo isto število podatkov.
 
 
 
 
 ### Rezultati
+Grafi registracij po mesecih v letih od 2012 do 2016.
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780926/4e24dc90-3331-11e7-9c1f-df6fdb7c08b9.jpeg)
 
 
@@ -36,6 +47,7 @@
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780929/4e2f9a90-3331-11e7-96b8-6b78d23571a9.jpeg)
 
+Graf vseh registracij od 2012 do 2016. Kot je razvidno na grafu, se stevilo registracij povečuje. 
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780931/4e36ad6c-3331-11e7-8a0c-829d08f55f56.jpeg)
 
