@@ -50,10 +50,12 @@ Kot je razvidno iz grafa 6(glej priponke) sva to hipotezo potrdila. To hipotezo 
 Pričakovala sva, da bosta december in januar zaradi trinajste plače najbolj popularna meseca za kupovanje novih vozil. Kljub temu, da so nekateri meseci izrazito popularnejši za kupovanje vozil, se trend iz leta v leto spreminja. Zaradi relativno kratkega obdobja podatkov(5 let), iz izbranih podatkov ne moreva ugotoviti razloga za popularnejša obdobja. Zanimivo bi bilo videti(ob dosegljivosti podatkov), če imajo na to vpliv kakšne reklamne kampanje. 
 
 ### Priponke
+#### Hipoteza 1
+![alt text](https://cloud.githubusercontent.com/assets/13321172/26764135/2a0f106e-4961-11e7-8dba-814543729709.png)
 Graf1 spreminjanja povprečne starosti državljanov Republike Slovenije
-![alt text] (https://cloud.githubusercontent.com/assets/13321172/26764135/2a0f106e-4961-11e7-8dba-814543729709.png)
 
-Grafi registracij po mesecih v letih od 2012 do 2016.
+#### Hipoteza 2
+Grafi registracij po mesecih v letih od 2012 do 2016:
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780926/4e24dc90-3331-11e7-9c1f-df6fdb7c08b9.jpeg)
 
 Graf 2.1: Registracije po mesecih v letu 2012.
@@ -73,11 +75,25 @@ Graf 2.4: Registracije po mesecih v letu 2015.
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780929/4e2f9a90-3331-11e7-96b8-6b78d23571a9.jpeg)
 
 Graf 2.5: Registracije po mesecih v letu 2016.
+#### Hipoteza 3
+![alt text](https://cloud.githubusercontent.com/assets/13321172/26764131/2a06c6b6-4961-11e7-878c-7d19f617d315.png)
+Graf 3.1: Razmerje moški/ženska med lastniki vozil
 
+#### Hipoteza 4
+![alt text](https://cloud.githubusercontent.com/assets/13321172/26764133/2a0bbe5a-4961-11e7-90b6-fa68acc9841d.png)
+Graf 4.1: Nazivne moči motorjev se s časom povečujejo
 
+![alt text](https://cloud.githubusercontent.com/assets/13321172/26764134/2a0c7246-4961-11e7-9e9c-b5c4230a1573.png)
+Graf 4.2: Število tovornih vozil( nad 4 litre)
+
+#### Hipoteza 5
+![alt text](https://cloud.githubusercontent.com/assets/13321172/26764132/2a0a03a8-4961-11e7-8c59-1e021890ff49.png)
+Graf 5.1: Moški imajo v povprečju močnejše avtomobile
+
+#### Hipoteza 6
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780931/4e36ad6c-3331-11e7-8a0c-829d08f55f56.jpeg)
 
-#### Graf 6
+Graf 6.1
 Število vseh registracij med 2012 in 2016. 
 
 
