@@ -52,6 +52,7 @@ Pričakovala sva, da bosta december in januar zaradi trinajste plače najbolj po
 ### Priponke
 #### Hipoteza 1
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/26764135/2a0f106e-4961-11e7-8dba-814543729709.png)
+
 Graf1 spreminjanja povprečne starosti državljanov Republike Slovenije
 
 #### Hipoteza 2
