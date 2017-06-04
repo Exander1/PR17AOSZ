@@ -2,7 +2,7 @@
 
 ## Alen Oberstar, Simon Zajc
 
-## 7.5.2017
+## 4.6.2017
 
 
 ### Uvod
@@ -41,10 +41,19 @@ Podatki so v 60 CSV datotekah, katere se med seboj razlikujejo, zato sva morala 
 
 ### Rezultati
 #### Hipoteza 1: Ker se povprečna starost državljanov Republike Slovenije viša, se tudi povprečna starost voznika povečuje.
-
+Glede na to, da se povprečna starost državljanov viša, je bilo pričakovati, da se bo sorazmerno višala tudi starost voznikov, kar se je izkazalo, da je res. Na grafu 1.1 se vidi, da se je povprečna starost voznikov v 4 letih povečala za 2.25 leti.
 
 #### Hipoteza 2: V zadnjih petih letih se je povečalo število prvih registracij v Sloveniji.
 Kot je razvidno iz grafa 6(glej priponke) sva to hipotezo potrdila. To hipotezo sva postavila, ker je bila Slovenija leta 2012(Prvo analizirano leto) sredi ekonomske krize. Iz grafa je lepo razvidno, da se je leta 2014, ko se je stanje začelo izboljševati, prodaja avtomobilov močno povečala. Iz leta 2014 na leto 2016 je narastla za približno 30%.
+
+#### Hipoteza 3: Razmerje moški/ženska med lastniki vozil se izenačuje.
+To hipotezo sva morala ovreči, saj bi za natančnejše rezultate potrebovala večji časovni okvir. Na grafu se sicer vidi, da se razmerje v začetnih letih še povečuje v stran moških, a se na koncu začne zmanjševati v stran žensk, a le za malo. 
+
+#### Hipoteza 4: Nazivne moči motorjev se s časom zmanšujejo. 
+To hipotezo sva si postavila v pričakovanju, da se prostornine avtomobilov zmanjšujejo zaradi navala poceni avtomobilov za množice, a sva jo morala ovreči, saj sva pri rudarjenju iz podatkov ugotovila, da se prostornine ubistvu povečujejo. Pri tej hipotezi je na voljo osnoven graf, ki prikazuje povečevanje prostornin in še graf, ki prikazuje povečanje števila tovornih vozil, za katere misliva, da vplivajo na končen rezultat prostornine. S tem lahko sklepamo, da se zaradi porasti indusutrije in industrijskih vozil močno povečuje tudi potreba po transportu, zaradi česar naraščajoa povprečne prostornine vozil. 
+
+#### Hipoteza 5: Moški imajo v povprečju močnejše avtomobile. 
+Ta hipoteza se je izkazala za pravilno, saj moški raje vozijo močnejše avtomobile. Na grafu se lepo vidi razlika, ki se še povečuje, saj ženske v zadnjih letih zmanšujejo moči avtomobilov, ki jih vozijo.
 
 #### Hipoteza 6: Obstajajo obdobja v letu, v katerih je več kupljenih vozil in posledično več prvih registracij vozil. 
 Pričakovala sva, da bosta december in januar zaradi trinajste plače najbolj popularna meseca za kupovanje novih vozil. Kljub temu, da so nekateri meseci izrazito popularnejši za kupovanje vozil, se trend iz leta v leto spreminja. Zaradi relativno kratkega obdobja podatkov(5 let), iz izbranih podatkov ne moreva ugotoviti razloga za popularnejša obdobja. Zanimivo bi bilo videti(ob dosegljivosti podatkov), če imajo na to vpliv kakšne reklamne kampanje. 
@@ -53,7 +62,7 @@ Pričakovala sva, da bosta december in januar zaradi trinajste plače najbolj po
 #### Hipoteza 1
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/26764135/2a0f106e-4961-11e7-8dba-814543729709.png)
 
-Graf1 spreminjanja povprečne starosti državljanov Republike Slovenije
+Graf 1.1 spreminjanja povprečne starosti državljanov Republike Slovenije
 
 #### Hipoteza 2
 Grafi registracij po mesecih v letih od 2012 do 2016:
