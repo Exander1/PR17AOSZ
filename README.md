@@ -40,6 +40,9 @@ Na vprašanja sva odgovarjala s pomočjo grafov, ki sva jih pridobila iz podatko
 Podatki so v 60 CSV datotekah, katere se med seboj razlikujejo, zato sva morala podatke urediti in pripraviti na obdelavo. Problem je nastal, ker niti vrstice v posamezni datoteki niso bile zapisane v istem formatu. Imele so različno število stolpcev, pa tudi, če je bilo število stolpcev enako, so bili lahko vključeni različni stolpci(Bravo slovenski statistični urad). Zaradi tega sva morala razviti svojo programsko rešitev. Program najprej ugotovi kakšno je najpogostejše število stolpcev v vrstici. Nato ročno vneseva mesto na katerem je željen podatek ter tip levega in desnega podatka, ki sta v sosednjih stolpcih željenega podatka. Program preveri če je željeni podatek pravega tipa, ter če sta levi in desni stolpec pravega tipa ali prazna. Če vrstica ustreza vsem zadanim pogojem, shranimo njen indeks in jo nato uporabimo za obdelavo. Kljub temu, da obstaja možnost napake, misliva, da zaradi količine podatkov bistveno ne vpliva na končne rezultate. Zaradi potrebe po manualnemu vnosu je z obdelavo podatkov zelo veliko dela. Če bi bili dani podatki lepo urejeni, bi bilo neizmerno lažje in hitreje iskati znanje v podatkih. 
 
 ### Rezultati
+#### Hipoteza 1: Ker se povprečna starost državljanov Republike Slovenije viša, se tudi povprečna starost voznika povečuje.
+
+
 #### Hipoteza 2: V zadnjih petih letih se je povečalo število prvih registracij v Sloveniji.
 Kot je razvidno iz grafa 6(glej priponke) sva to hipotezo potrdila. To hipotezo sva postavila, ker je bila Slovenija leta 2012(Prvo analizirano leto) sredi ekonomske krize. Iz grafa je lepo razvidno, da se je leta 2014, ko se je stanje začelo izboljševati, prodaja avtomobilov močno povečala. Iz leta 2014 na leto 2016 je narastla za približno 30%.
 
@@ -47,26 +50,29 @@ Kot je razvidno iz grafa 6(glej priponke) sva to hipotezo potrdila. To hipotezo 
 Pričakovala sva, da bosta december in januar zaradi trinajste plače najbolj popularna meseca za kupovanje novih vozil. Kljub temu, da so nekateri meseci izrazito popularnejši za kupovanje vozil, se trend iz leta v leto spreminja. Zaradi relativno kratkega obdobja podatkov(5 let), iz izbranih podatkov ne moreva ugotoviti razloga za popularnejša obdobja. Zanimivo bi bilo videti(ob dosegljivosti podatkov), če imajo na to vpliv kakšne reklamne kampanje. 
 
 ### Priponke
+Graf1 spreminjanja povprečne starosti državljanov Republike Slovenije
+![alt text] (https://cloud.githubusercontent.com/assets/13321172/26764135/2a0f106e-4961-11e7-8dba-814543729709.png)
+
 Grafi registracij po mesecih v letih od 2012 do 2016.
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780926/4e24dc90-3331-11e7-9c1f-df6fdb7c08b9.jpeg)
 
-Graf 1: Registracije po mesecih v letu 2012.
+Graf 2.1: Registracije po mesecih v letu 2012.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780930/4e335eaa-3331-11e7-8b16-fc10f5269604.jpeg)
 
-Graf 2: Registracije po mesecih v letu 2013.
+Graf 2.2: Registracije po mesecih v letu 2013.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780927/4e28c0b2-3331-11e7-89ba-ec226531b130.jpeg)
 
-Graf 3: Registracije po mesecih v letu 2014.
+Graf 2.3: Registracije po mesecih v letu 2014.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780928/4e2bdff4-3331-11e7-8c03-206dea191d8c.jpeg)
 
-Graf 4: Registracije po mesecih v letu 2015.
+Graf 2.4: Registracije po mesecih v letu 2015.
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780929/4e2f9a90-3331-11e7-96b8-6b78d23571a9.jpeg)
 
-Graf 5: Registracije po mesecih v letu 2016.
+Graf 2.5: Registracije po mesecih v letu 2016.
 
 
 ![alt text](https://cloud.githubusercontent.com/assets/13321172/25780931/4e36ad6c-3331-11e7-8a0c-829d08f55f56.jpeg)
